@@ -1,6 +1,7 @@
 import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Marquee from 'react-fast-marquee';
+import Projects from './components/Projects';
 
 function App() {
 
@@ -84,7 +85,7 @@ function App() {
         <div className="container d-flex justify-content-center gap-5 div-nav  ">
           <a className="navbar-brand" href="#about">Sobre mi</a>
           <a className="navbar-brand" href="#">Capacitación</a>
-          <a className="navbar-brand" href="#">Proyectos</a>
+          <a className="navbar-brand" href="#projects">Proyectos</a>
           <a className="navbar-brand" href="#">Contacto</a>
         </div>
       </nav>
@@ -93,7 +94,7 @@ function App() {
         <div className='absolute'>
 
         </div>
-        <video id='video' loop autoPlay muted>
+        <video id='video' loop autoPlay muted infinite preload='true'>
           <source src="http://drive.google.com/uc?export=view&id=1wymZxf9AUTcODYL6kxos_FpknKlMNBD8" type="video/mp4" />
         </video>
 
@@ -114,11 +115,14 @@ function App() {
         }
       </Marquee>
       <main>
-        <div id="about" className='container-fluid div-title'>
-          <h2>Sobre mi</h2>
-        </div>
-        <div className='container'>
-          <div className='div-about-me' >
+
+        <div className='container d-flex justify-content-between lg-col-2 flex-wrap'>
+          <div>
+            <img src="http://drive.google.com/uc?export=view&id=1zMZliJOjk7yUVdRE_2uEmP9FR0-WindT" alt="aboutme" className='img-about' />
+          </div>
+          <div className='div-about-me' id='about' >
+            <h2>Sobre mi</h2>
+
             <p>Soy Desarrollador Full Stack MERN. Tengo experiencia en el
               manejo de diferentes tecnologías, MongoDB, Express,
               JavaScript, React.js, las cuales incrementé en mi última
@@ -138,83 +142,93 @@ function App() {
               habilidades y seguir superándome.</p>
           </div>
         </div>
-        <div id="about" className='container-fluid div-title'>
+
+        <div>
+          <hr className='divider' />
+        </div>
+        <div className='div-separetor'>
           <h2>Experiencia</h2>
         </div>
+
         <div className='container gap-5 py-5 div-experiencia'>
-          <div class="card-container">
-            <span class="pro">Actual</span>
-            <img class="round" src="https://randomuser.me/api/portraits/women/79.jpg" alt="user" />
+          <div className="card-container">
+            <span className="pro">Actual</span>
+            <img className="round w-50 img-experience" src="http://drive.google.com/uc?export=view&id=1wb0YX9ZUc99HQbZdniGFVAJMKySAc6xJ" alt="user" />
             <h3>Fundación Retorno a la Libertad</h3>
             <h6>Fullstack Developer</h6>
             <p>Septiembre 2022</p>
-            <div class="buttons">
-              <p>Levantamiento de informacion, creacion de mockup</p>
-            </div>
-            <div class="skills">
+            <div className="skills">
               <h6>Tecnologías</h6>
               <ul>
-                <li>React</li>
-                <li>bootstrap</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Node</li>
-                <li>Express</li>
                 <li>MongoDB</li>
+                <li>Heroku</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Node</li>
+                <li>React</li>
+                <li>JavaScript</li>
+                <li>Maquetado WEB</li>
+                <li>Express</li>
+                <li>React Native</li>
+                <li>Axios</li>
+                <li>Redux</li>
+                <li>Git & Github</li>
+                <li>Bootstrap</li>
+                <li>Jira</li>
+                <li>Postman</li>
               </ul>
             </div>
           </div>
           <div class="card-container">
-            <img class="round" src="https://randomuser.me/api/portraits/women/79.jpg" alt="user" />
-            <h3>Fundación Retorno a la Libertad</h3>
+            <img class="round w-50" src="http://drive.google.com/uc?export=view&id=1O5F-nGBnSW7Ks9jLJxp4L3x9IajhA1cP" alt="user" />
+            <h3>Bootcamp Fullstack MERN & Mobile</h3>
             <h6>Fullstack Developer</h6>
-            <p>Septiembre 2022</p>
-            <div class="buttons">
-              <p>Levantamiento de informacion, creacion de mockup</p>
-            </div>
+            <p>Julio 2022 - Octubre 2022</p>
             <div class="skills">
               <h6>Tecnologías</h6>
-              <ul>
-                <li>UI / UX</li>
-                <li>Front End Development</li>
+              <ul >
+                <li>MongoDB</li>
+                <li>Heroku</li>
                 <li>HTML</li>
                 <li>CSS</li>
-                <li>JavaScript</li>
-                <li>React</li>
                 <li>Node</li>
+                <li>React</li>
+                <li>JavaScript</li>
+                <li>Maquetado WEB</li>
+                <li>Express</li>
+                <li>React Native</li>
+                <li>Axios</li>
+                <li>Redux</li>
+                <li>Git & Github</li>
+                <li>Bootstrap</li>
+                <li>Github Project</li>
+                <li>Postman</li>
               </ul>
             </div>
           </div>
           <div class="card-container">
-            <img class="round" src="https://randomuser.me/api/portraits/women/79.jpg" alt="user" />
-            <h3>Fundación Retorno a la Libertad</h3>
-            <h6>Fullstack Developer</h6>
-            <p>Septiembre 2022</p>
-            <div class="buttons">
-              <p>Levantamiento de informacion, creacion de mockup</p>
-            </div>
+            <img class="round w-50" src="http://drive.google.com/uc?export=view&id=1jnMTJq62MDFkd8utBSFMg352tu0fr10Z" alt="user" />
+            <h3>Sociedad Médica de Urología de Venezuela</h3>
+            <h6>Frontend Trainee Developer</h6>
+            <p>Enero 2020 - Agosto 2021</p>
             <div class="skills">
               <h6>Tecnologías</h6>
               <ul>
-                <li>UI / UX</li>
-                <li>Front End Development</li>
                 <li>HTML</li>
                 <li>CSS</li>
-                <li>JavaScript</li>
-                <li>React</li>
-                <li>Node</li>
+                <li>JQuery</li>
               </ul>
             </div>
           </div>
-        </div>
-        <div id="about" className='container-fluid div-title'>
-          <h2>Habilidades</h2>
         </div>
 
-        <div id="about" className='container-fluid div-title'>
+        <div>
+          <hr className='divider' />
+        </div>
+        <div className='div-separetor'>
           <h2>Certificaciones</h2>
         </div>
+
         <div className='container div-certification'>
           <img src='http://drive.google.com/uc?export=view&id=1shkX68Xyig1SzvSFDsS7ivzVmiRE7MYE' alt='mindhub' className='img-certification' />
           <img src='http://drive.google.com/uc?export=view&id=1-PmhneMNAemG3Z8_wxFBHuCk-okf8d0f' alt='coderhouse' className='img-certification' />
@@ -223,6 +237,66 @@ function App() {
 
         </div>
 
+        <div>
+          <hr className='divider' />
+        </div>
+        <div className='div-separetor'>
+          <h2>Capacitación</h2>
+        </div>
+        <div className='div-container-education'>
+
+
+          <div class="container flex-wrap">
+
+            <div class="card-edu">
+              <div class="face face1">
+                <div class="content">
+                  <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/code_128.png?raw=true" />
+                  <h3>FrontEnd Developer React</h3>
+                </div>
+              </div>
+              <div class="face face2">
+                <div class="content">
+                  <h3> (Ago-2021 / May 2022)</h3>
+                  <p>Carrera de desarrollador front-end con enfoque a React.js
+                    para desarrollo de Single Page Aplication, utilizando HTML, CSS,
+                    SASS, Jquery, Javascript, Bootstrap, Firebase, Git & GitHub, Fetch .
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card-edu">
+              <div class="face face1">
+                <div class="content">
+                  <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/launch_128.png?raw=true" />
+                  <h3>FullStack Developer MERN & Mobile</h3>
+                </div>
+              </div>
+              <div class="face face2">
+                <div class="content">
+                  <h3>(Jul-2022 / Oct 2022</h3>
+                  <p>Bootcamp con +700 Horas full-time utilizando metodologías
+                    ágiles (SCRUM), simulando un ambiente de trabajo real
+                    utilizando tecnologías como MongoDB, Express, React.js,
+                    Node.js, React Native, Heroku, Git & GitHub, GitHub Project,
+                    Axios, Redux.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div>
+          <hr className='divider' />
+        </div>
+        {/* Area Proyectos */}
+        <div className='div-separetor' id='projects'>
+          <h2>Proyectos</h2>
+        </div>
+
+        <div className='container d-flex justify-content-center py-5 flex-wrap gap-5'>
+        <Projects/>
+        </div>
 
 
 

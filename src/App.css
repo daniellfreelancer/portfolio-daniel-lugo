@@ -210,7 +210,7 @@ button.primary.ghost {
 }
 
 .skills {
-  background-color: rgba(17, 25, 40, 0.75);
+  background-color: rgba(17, 25, 40, 0.411);
 	text-align: left;
 	padding: 15px;
 	margin-top: 30px;
@@ -223,7 +223,7 @@ button.primary.ghost {
 }
 
 .skills ul li {
-	border: 1px solid #2D2747;
+	border: 1px solid #FEBB0B;
 	border-radius: 2px;
 	display: inline-block;
 	font-size: 12px;
@@ -417,6 +417,7 @@ color: #282928;
   padding-top: 0.5rem;
   cursor: pointer;
 }
+
 .div-hashtag{
   height: 4rem;
 }

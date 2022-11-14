@@ -1,2 +1,2 @@
-# portfolio-daniel-lugo
+# Projects
 Repositorio de mi portfolio

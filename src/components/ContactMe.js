@@ -1,6 +1,23 @@
 import React from "react";
 import '../styles/Contactme.css'
+import Swal from 'sweetalert2'
+import emailjs from 'emailjs-com'
 export default function ContactMe() {
+
+  const sentEmailTo =(e)=>{
+    e.preventDefault();
+    emailjs.sendForm("service_kx6adsn","template_vzrkx84",e.target,'ng_Wj0ukxU_sDzcdd').then((res)=>{
+      Swal.fire({
+        text: 'Su mensaje ha sido enviado con exito!',
+        icon: 'success',
+        confirmButtonText: 'Nice'
+      })
+      e.target.reset()
+    } ).catch((error)=>console.log(error))
+  
+
+  }
+
   return (
     <>
       <div>
@@ -10,37 +27,38 @@ export default function ContactMe() {
         <h2>Contáctame</h2>
       </div>
 
-      <div className="d-flex justify-content-around p-5 gap-5 flex-wrap-reverse align-items-center ">
+      <div className="d-flex justify-content-evenly p-5 gap-5 flex-wrap-reverse align-items-center container ">
         <div className="card-form">
-          <form className="">
+          <form onSubmit={sentEmailTo} className="">
+
             <div className="md-3 div-field">
-              <label for="exampleInputEmail1" class="form-label">
+              <label forHtml="to_name" class="form-label">
+                
                 Nombre
               </label>
-              <input
-                type="email"
-                class="form-control"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp"
-              />
+
+              <input type="text" name="to_name" id="to_name" className="form-control"/>
             </div>
-            <div class="mb-3 div-field">
-              <label for="exampleFormControlInput1" class="form-label">
+            <div className="mb-3 div-field">
+              <label forHtml="reply_to" className="form-label">
                 Email
               </label>
               <input
                 type="email"
-                class="form-control"
-                id="exampleFormControlInput1"
+                className="form-control"
+                name="reply_to" 
+                id="reply_to"
               />
             </div>
             <div class="mb-3 div-field">
-              <label for="exampleFormControlTextarea1" class="form-label">
+              <label forHtml="message" className="form-label">
                 Asunto
               </label>
               <textarea
-                class="form-control"
-                id="exampleFormControlTextarea1"
+                className="form-control"
+                type="text" 
+                name="message" 
+                id="message"
                 rows="2"
               ></textarea>
             </div>

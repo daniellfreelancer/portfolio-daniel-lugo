@@ -9,7 +9,7 @@ const Projects = () => {
       img: "http://drive.google.com/uc?export=view&id=1ERrEY_uc_SSoNnfPfk1IWtevKfs4IwgZ",
       title: "Portfolio Profesional ",
       hashtags:
-        "#HTML  #CSS  #Bootstrap  #JavaScript  #React  #ReactFastMarquee #MyPortfolio #Frame-motion #Netlify #npm #GIT #github",
+        "#HTML  #CSS  #Bootstrap  #JavaScript  #React  #ReactFastMarquee #MyPortfolio #Frame-motion #Netlify #npm #GIT #github #SweetAler2 #emailJS",
       miniatures: [
         "http://drive.google.com/uc?export=view&id=1M32jUtwGCGMiaBpKkJxd5Y8JdOFAe61V",
         "http://drive.google.com/uc?export=view&id=1DG1jCCPkVCHIzQkAu_9mnxhyEVDJeS3t",

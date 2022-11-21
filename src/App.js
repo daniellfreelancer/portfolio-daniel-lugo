@@ -10,6 +10,7 @@ import NavBar from "./components/NavBar";
 import Tech from "./components/Tech";
 import VideoWelcome from "./components/VideoWelcome";
 import Mobile from "./components/Mobile";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
 
@@ -35,6 +36,7 @@ function App() {
         </div>
         <Mobile/>
         <ContactMe />
+        <ScrollToTop/>
       </main>
     </div>
   );

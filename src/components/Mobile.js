@@ -28,7 +28,7 @@ export default function Mobile() {
       <div>
         <hr className="divider" />
       </div>
-      <div className="div-separetor py-5" id="contactMe">
+      <div className="div-separetor py-5">
         <h2>Proyectos Mobile</h2>
       </div>
 

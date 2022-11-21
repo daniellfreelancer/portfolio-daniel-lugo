@@ -1,0 +1,13 @@
+
+
+@media screen and (max-width:768px){
+    #video{
+        display: none;
+    }
+    .div-header{
+        background-image: url('http://drive.google.com/uc?export=view&id=1c-_bobGC5c4fAm6jVQarSUItSgKuhnx9');
+        margin: 2rem 0rem;
+        min-height: 35vh;
+    }
+  }
+

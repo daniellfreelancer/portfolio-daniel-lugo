@@ -1,8 +1,9 @@
 import React from 'react'
+import '../styles/Header.css'
 
 export default function VideoWelcome() {
   return (
-    <header className="App-header">
+    <header className="App-header div-header">
     <div className='absolute'>
     </div>
     <video id='video' src="http://drive.google.com/uc?export=view&id=1wymZxf9AUTcODYL6kxos_FpknKlMNBD8" loop autoPlay muted infinite="true" />

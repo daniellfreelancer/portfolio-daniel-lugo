@@ -52,20 +52,6 @@
 }
 
 
-.div-nav a {
-  color: #282928;
-  background-color: #eff612;
-  padding: 0.5rem 2rem;
-  border-radius: 5px;
-}
-
-.div-nav a:hover {
-color: #eff612;
-background-color: #282928;
-box-shadow: 0px 0px 30px 1px rgba(234, 255, 0, 0.3);
-
-}
-
 .div-about-me{
 
   text-align: justify;
@@ -408,7 +394,7 @@ color: #282928;
 }
 
 .mini-img-project:hover{
-  transform: scale(1.1);
+  transform: scale(1.5);
   cursor: pointer;
 }
 
@@ -420,4 +406,21 @@ color: #282928;
 
 .div-hashtag{
   height: 4rem;
+}
+
+.img-whatsapp{
+  width: 16rem;
+}
+
+.card-form {
+  width: 30rem;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid rgba(255, 255, 255, .25);
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.45);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+  padding: 2rem;
 }

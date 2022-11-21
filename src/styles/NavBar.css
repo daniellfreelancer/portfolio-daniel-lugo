@@ -1,0 +1,38 @@
+.div-nav{
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+}
+
+  
+  .navbar-brand {
+    color: #282928;
+    background-color: #eff612;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+    width: 100% !important;
+    margin: 0.5rem;
+  }
+  
+  .navbar-brand:hover {
+  color: #eff612 !important;
+  background-color: #282928;
+  box-shadow: 0px 0px 30px 1px rgba(234, 255, 0, 0.3);
+  
+  }
+  
+  
+  
+  .navbar-toggler-icon{
+    color: #FEBB0B;
+  }
+  
+.btn-burger{
+    color: #FEBB0B !important;
+    background-color: #eff612;
+    
+}
+
+.btn-out-burger{
+    background-color: #eff612;
+}

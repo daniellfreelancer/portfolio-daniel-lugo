@@ -91,7 +91,7 @@ const Projects = () => {
             "http://drive.google.com/uc?export=view&id=1ifn__kKOOFR8SUyxOFlsirhra7MRyS8W",
         },
         {
-            web: "https://github.com/daniellfreelancer/dot-cafe-front",
+            web: "https://github.com/daniellfreelancer/mytinerary-pulpfiction",
             logoWeb:
               "http://drive.google.com/uc?export=view&id=1bfRVR04bibDM8QuGdH-K7R6KdIFYLjE6",
           }
@@ -123,7 +123,7 @@ const Projects = () => {
             "http://drive.google.com/uc?export=view&id=1ifn__kKOOFR8SUyxOFlsirhra7MRyS8W",
         },
         {
-            web: "https://github.com/daniellfreelancer/dot-cafe-front",
+            web: "https://github.com/daniellfreelancer/mindy-grupo1",
             logoWeb:
               "http://drive.google.com/uc?export=view&id=1bfRVR04bibDM8QuGdH-K7R6KdIFYLjE6",
           }
@@ -155,7 +155,7 @@ const Projects = () => {
           logoWeb:
             "http://drive.google.com/uc?export=view&id=1ifn__kKOOFR8SUyxOFlsirhra7MRyS8W",
         },        {
-            web: "https://github.com/daniellfreelancer/portfolio-daniel-lugo",
+            web: "https://github.com/daniellfreelancer/proyectoFinalReactJsDanielLugoMstore",
             logoWeb:
               "http://drive.google.com/uc?export=view&id=1udc3kgvq3fM2usggvWygdgWpkwYd3nrW",
           },
@@ -187,7 +187,7 @@ const Projects = () => {
           logoWeb:
             "http://drive.google.com/uc?export=view&id=1ifn__kKOOFR8SUyxOFlsirhra7MRyS8W",
         },        {
-            web: "https://github.com/daniellfreelancer/portfolio-daniel-lugo",
+            web: "https://github.com/daniellfreelancer/amazing-events",
             logoWeb:
               "http://drive.google.com/uc?export=view&id=1udc3kgvq3fM2usggvWygdgWpkwYd3nrW",
           },
@@ -218,7 +218,7 @@ const Projects = () => {
           logoWeb:
             "http://drive.google.com/uc?export=view&id=1ifn__kKOOFR8SUyxOFlsirhra7MRyS8W",
         },        {
-            web: "https://github.com/daniellfreelancer/portfolio-daniel-lugo",
+            web: "https://github.com/daniellfreelancer/entregaFinalJs",
             logoWeb:
               "http://drive.google.com/uc?export=view&id=1udc3kgvq3fM2usggvWygdgWpkwYd3nrW",
           },
@@ -248,7 +248,7 @@ const Projects = () => {
           logoWeb:
             "http://drive.google.com/uc?export=view&id=1ifn__kKOOFR8SUyxOFlsirhra7MRyS8W",
         },        {
-            web: "https://github.com/daniellfreelancer/portfolio-daniel-lugo",
+            web: "https://github.com/daniellfreelancer/ThugTurtleNFT",
             logoWeb:
               "http://drive.google.com/uc?export=view&id=1udc3kgvq3fM2usggvWygdgWpkwYd3nrW",
           },

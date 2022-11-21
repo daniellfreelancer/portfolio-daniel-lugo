@@ -1,8 +1,6 @@
 import React from 'react'
 import '../styles/Footer.css'
 
-import myCV from '../assets/DanielLugoFullStack.pdf'
-
 export default function Footer() {
     return (
         <>

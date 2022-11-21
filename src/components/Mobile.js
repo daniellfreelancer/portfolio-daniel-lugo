@@ -13,13 +13,15 @@ export default function Mobile() {
 
   const arrayPuntoCafe = [
     "http://drive.google.com/uc?export=view&id=1q38mWBEzie7raJFtF31UbImdBNTLgL3g",
-    "http://drive.google.com/uc?export=view&id=1JnAV_0KMYDk1Tf96GdUgUV2QzdGZDuhh",
     "http://drive.google.com/uc?export=view&id=1Yk9EKK2Iqrdnm5s_PxV0kdR1iZ7rmnNp",
     "http://drive.google.com/uc?export=view&id=1oVxtzD4kNIIlP8aebIpzf7WPc7nEbPsE",
+    "http://drive.google.com/uc?export=view&id=1JnAV_0KMYDk1Tf96GdUgUV2QzdGZDuhh",
+    "http://drive.google.com/uc?export=view&id=1u_v7e3ZrbpTsPTrsgyHN2-tOBVa-pMoh",
+    "http://drive.google.com/uc?export=view&id=1dYvdJrKNYz8NlAFAt0Xxy0ZxYlZxGQdh",
+    "http://drive.google.com/uc?export=view&id=1R9SGpM7Jd02iu250cdd0xKWC8c0j3Mqx",
     "http://drive.google.com/uc?export=view&id=1x59WCtA-PsbCNaMGwcKnK-N15topsueL",
     "http://drive.google.com/uc?export=view&id=1U3MD-Zj_AExjGj2ZP5UPE1miQrIwYyQT",
-    "http://drive.google.com/uc?export=view&id=1R9SGpM7Jd02iu250cdd0xKWC8c0j3Mqx",
-    "http://drive.google.com/uc?export=view&id=1u_v7e3ZrbpTsPTrsgyHN2-tOBVa-pMoh",
+ 
   ];
 
 
@@ -46,11 +48,11 @@ export default function Mobile() {
           <motion.div
             className="slider"
             drag="x"
-            dragConstraints={{ right: 0, left: -3300 }}
+            dragConstraints={{ right: 0, left: -3700 }}
           >
             {arrayPuntoCafe.map((item) => {
               return (
-                <motion.div className="item">
+                <motion.div className="item" key={item}>
                   <img className="img-mobile" src={item} alt={item} />
                 </motion.div>
               );

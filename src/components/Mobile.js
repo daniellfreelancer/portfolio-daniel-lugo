@@ -3,7 +3,7 @@ import "../styles/Mobile.css";
 import { motion } from "framer-motion";
 
 export default function Mobile() {
-  //     http://drive.google.com/uc?export=view&id=1JnAV_0KMYDk1Tf96GdUgUV2QzdGZDuhh
+  // http://drive.google.com/uc?export=view&id=1JnAV_0KMYDk1Tf96GdUgUV2QzdGZDuhh
   // http://drive.google.com/uc?export=view&id=1Yk9EKK2Iqrdnm5s_PxV0kdR1iZ7rmnNp
   // http://drive.google.com/uc?export=view&id=1oVxtzD4kNIIlP8aebIpzf7WPc7nEbPsE
   // http://drive.google.com/uc?export=view&id=1x59WCtA-PsbCNaMGwcKnK-N15topsueL
@@ -23,6 +23,11 @@ export default function Mobile() {
     "http://drive.google.com/uc?export=view&id=1U3MD-Zj_AExjGj2ZP5UPE1miQrIwYyQT",
  
   ];
+
+  const arrayPulpFiction = ["http://drive.google.com/uc?export=view&id=1ElXVX_m-zLz_l5wgkpeJ6fD_YL1mnpq1",
+  "http://drive.google.com/uc?export=view&id=1OtQvtMQXUFDokyKIS9T7RaMtnQNnZSdX","http://drive.google.com/uc?export=view&id=17OVisPzQFz1A8cjMfP275ZAqrzFqL4C8","http://drive.google.com/uc?export=view&id=1y3KbfpAMEBCKHIl_xP6XUJfPQj_DPZA_", "http://drive.google.com/uc?export=view&id=1HU7jK7ss8knWD26PWZuaY_p2Z1ncs7xD", "http://drive.google.com/uc?export=view&id=1xvXR-yC3bJIjYkWCpZ5qGohUrkm9RH7R", "http://drive.google.com/uc?export=view&id=1J98wd1G3hE4ejHPuqWgjHJ_DHtfLRPnr", "http://drive.google.com/uc?export=view&id=1dDUDLugCwCUmEKKp0F_w23E2mK8Jq5Mo", "http://drive.google.com/uc?export=view&id=1-JtpQSKROSoAc-H4Xb_NNeFuD-rYWW0n"
+
+  ]
 
 
   return (
@@ -75,7 +80,7 @@ export default function Mobile() {
                   drag="x"
                   dragConstraints={{ right: 0, left: -3300 }}
                 >
-                  {arrayPuntoCafe.map((item) => {
+                  {arrayPulpFiction.map((item) => {
                     return (
                       <motion.div className="item">
                         <img className="img-mobile" src={item} alt={item} />

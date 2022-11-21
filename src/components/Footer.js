@@ -10,7 +10,7 @@ export default function Footer() {
                 <hr className="divider" />
             </div>
             <div className='footer-div'>
-                <a href={myCV} download="Daniel-Lugo-FullStack-CV">
+                <a href="http://drive.google.com/uc?export=view&id=1eRjG9zSzfqzohOdbP75AoVqQOc5mpTwR" target="_blank" download="Daniel-Lugo-FullStack-CV">
                     <img className="link-footer" src='http://drive.google.com/uc?export=view&id=1uuhFohETxC9mRNhXxlVwPTPy4QNd6IGj' alt='cv' />
                 </a>
                 <a href="https://github.com/daniellfreelancer" target="_blank">

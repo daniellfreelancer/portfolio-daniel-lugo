@@ -11,6 +11,7 @@ import Tech from "./components/Tech";
 import VideoWelcome from "./components/VideoWelcome";
 import Mobile from "./components/Mobile";
 import ScrollToTop from "./components/ScrollToTop";
+import Footer from "./components/Footer";
 
 function App() {
 
@@ -38,6 +39,7 @@ function App() {
         <ContactMe />
         <ScrollToTop/>
       </main>
+      <Footer/>
     </div>
   );
 }

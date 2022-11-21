@@ -1,5 +1,6 @@
 import React from 'react'
 import Marquee from 'react-fast-marquee'
+import '../styles/Tech.css'
 
 export default function Tech() {
     let arraySponsors = [
@@ -70,7 +71,7 @@ export default function Tech() {
       ]
     
   return (
-    <Marquee className="marquee-div w-100 gap-5 pb-5 mb-5" gradient={false} speed={30} >
+    <Marquee className="marquee-div marquee-tech w-100 gap-5 pb-5 mb-5" gradient={false} speed={30} >
     {
       arraySponsors.map((sponsor) => {
         return (

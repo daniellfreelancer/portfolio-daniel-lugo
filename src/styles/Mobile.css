@@ -54,11 +54,14 @@
 @media screen and (max-width:425px) {
     .div-body{
         /* margin: 0 35%; */
-        width: 99%;
+        width: 100%;
         padding: 0;
     }
     .div-text-mobile{
-        width: 93%;
+        width: 92.5%;
         margin: 1rem;
+    }
+    .img-mobile{
+        width: 26rem;
     }
 }

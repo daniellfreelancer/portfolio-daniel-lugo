@@ -114,13 +114,9 @@
 
   @media screen and (max-width:768px) {
     .container .card-edu .face{
-        width: 95%;
-        height: 12.5rem;
-        transition: 0.5s;
-      
+        width: 100%;
+     
       }
-      .div-container-education{
-        justify-content: center;
-        align-items: center;
-      }
+
+
   }

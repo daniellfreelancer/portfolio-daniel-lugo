@@ -1,7 +1,7 @@
 
 .div-body{
     /* margin: 0 35%; */
-    width: 30rem;
+    width: 29rem;
     text-align: center;
 }
 
@@ -14,17 +14,19 @@
 }
 
 .item{
-    width: 30rem;
+    width: 29rem;
 }
 
 .item img{
     height: 100%;
     pointer-events: none;
 }
-
+.container-slider-div {
+    gap: 4rem !important;
+}
 
 .div-text-mobile{
-    width: 30rem;
+    width: 29rem;
     border-radius: 5px;
     color: #B3B8CD;
     background:#333;

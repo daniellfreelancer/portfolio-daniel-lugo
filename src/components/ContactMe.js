@@ -1,5 +1,5 @@
 import React from "react";
-
+import '../styles/Contactme.css'
 export default function ContactMe() {
   return (
     <>
@@ -10,10 +10,10 @@ export default function ContactMe() {
         <h2>Contáctame</h2>
       </div>
 
-      <div className="d-flex justify-content-center gap-5 ">
+      <div className="d-flex justify-content-around p-5 gap-5 flex-wrap-reverse align-items-center ">
         <div className="card-form">
-          <form>
-            <div className="md-3">
+          <form className="">
+            <div className="md-3 div-field">
               <label for="exampleInputEmail1" class="form-label">
                 Nombre
               </label>
@@ -24,28 +24,27 @@ export default function ContactMe() {
                 aria-describedby="emailHelp"
               />
             </div>
-            <div class="mb-3">
+            <div class="mb-3 div-field">
               <label for="exampleFormControlInput1" class="form-label">
-                Email address
+                Email
               </label>
               <input
                 type="email"
                 class="form-control"
                 id="exampleFormControlInput1"
-                placeholder="name@example.com"
               />
             </div>
-            <div class="mb-3">
+            <div class="mb-3 div-field">
               <label for="exampleFormControlTextarea1" class="form-label">
-                Example textarea
+                Asunto
               </label>
               <textarea
                 class="form-control"
                 id="exampleFormControlTextarea1"
-                rows="3"
+                rows="2"
               ></textarea>
             </div>
-            <button type="submit" className="btn btn-primary">
+            <button type="submit" className="btn btn-warning btn-enviar">
               Enviar!
             </button>
           </form>

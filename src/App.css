@@ -37,44 +37,12 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-
 .logo-web{
   width: 45rem;
 }
 
 
-.div-about-me{
 
-  text-align: justify;
-  background: #333;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
-  padding: 2rem 2rem;
-  border-radius: 5px;
-  margin: 1.5rem;
-  width:50%;
-}
-
-.div-about-me p {
-  font-size: medium;
-  color:#B3B8CD ;
-}
-
-
-.div-about-me h2 {
-  text-align: center;
-  font-weight: 500;
-  font-size: 3rem;
-  color:#eff612 ;
-}
 
 .div-title:hover{
   box-shadow: 0px 0px 30px 1px rgba(234, 255, 0, 0.3);
@@ -243,9 +211,6 @@ color: #282928;
   margin: 2rem 0rem;
 }
 
-.img-about{
-  width:150%;
-}
 .divider {
   color: #FEBB0B;
 }
@@ -412,15 +377,3 @@ color: #282928;
   width: 16rem;
 }
 
-.card-form {
-  width: 30rem;
-  min-height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  border: 1px solid rgba(255, 255, 255, .25);
-  border-radius: 20px;
-  background-color: rgba(255, 255, 255, 0.45);
-  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
-  padding: 2rem;
-}

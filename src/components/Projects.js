@@ -7,9 +7,9 @@ const Projects = () => {
     {
       id: "01",
       img: "http://drive.google.com/uc?export=view&id=1ERrEY_uc_SSoNnfPfk1IWtevKfs4IwgZ",
-      title: "Portfolio Profesional",
+      title: "Portfolio Profesional ",
       hashtags:
-        "#HTML  #CSS  #Bootstrap  #JavaScript  #React  #ReactFastMarquee",
+        "#HTML  #CSS  #Bootstrap  #JavaScript  #React  #ReactFastMarquee #MyPortfolio #Frame-motion #Netlify #npm #GIT #github",
       miniatures: [
         "http://drive.google.com/uc?export=view&id=1M32jUtwGCGMiaBpKkJxd5Y8JdOFAe61V",
         "http://drive.google.com/uc?export=view&id=1DG1jCCPkVCHIzQkAu_9mnxhyEVDJeS3t",
@@ -39,7 +39,7 @@ const Projects = () => {
       img: "http://drive.google.com/uc?export=view&id=1Ibr4ZjfWy9_QOQGh_FGlLaLN-Z9ReXdI",
       title: "Punto Café - E-commerce",
       hashtags:
-        '#HTML  #CSS  #Bootstrap  #JavaScript  #React  #ReactFastMarquee  #Mercadopago  #Node  #Express.js  #JWT  #MongoDB  "#CORS  #AXIOS  #Redux  #Heroku  #GoogleApis',
+        '#HTML  #CSS  #Bootstrap  #JavaScript  #React  #ReactFastMarquee  #Mercadopago  #Node  #Express.js  #JWT  #MongoDB  #CORS  #AXIOS  #Redux  #Heroku  #GoogleApis',
       miniatures: [
         "http://drive.google.com/uc?export=view&id=15tijVQMxSaSl9UmMKseF4T9qxXzkmBQi",
         "http://drive.google.com/uc?export=view&id=1vCkS1rP-tYVCL5fJT--9GSxTKFvkNZU9",

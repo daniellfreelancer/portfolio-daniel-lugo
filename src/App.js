@@ -9,6 +9,7 @@ import ContactMe from "./components/ContactMe";
 import NavBar from "./components/NavBar";
 import Tech from "./components/Tech";
 import VideoWelcome from "./components/VideoWelcome";
+import Mobile from "./components/Mobile";
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
         <div className="container d-flex justify-content-center py-5 flex-wrap gap-5">
           <Projects />
         </div>
+        <Mobile/>
         <ContactMe />
       </main>
     </div>

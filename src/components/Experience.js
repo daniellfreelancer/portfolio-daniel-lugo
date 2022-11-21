@@ -13,13 +13,13 @@ export default function Experience() {
 
       <div className="container gap-5 py-5 div-experiencia">
         <div className="card-container">
-          <span className="pro">Actual</span>
+          <span className="pro bg-warning">Actual</span>
           <img
             className="round w-50 img-experience"
             src="http://drive.google.com/uc?export=view&id=1wb0YX9ZUc99HQbZdniGFVAJMKySAc6xJ"
             alt="user"
           />
-          <h3>Fundación Retorno a la Libertad</h3>
+          <h3 className="p-1">Fundación Retorno a la Libertad</h3>
           <h6>Fullstack Developer</h6>
           <p>Septiembre 2022</p>
           <div className="skills">
@@ -50,7 +50,7 @@ export default function Experience() {
             src="http://drive.google.com/uc?export=view&id=1O5F-nGBnSW7Ks9jLJxp4L3x9IajhA1cP"
             alt="user"
           />
-          <h3 className="p-2">Bootcamp Fullstack MERN & Mobile</h3>
+          <h3 className="p-1">Bootcamp Fullstack MERN & Mobile</h3>
           <h6>Fullstack Developer</h6>
           <p>Julio 2022 - Octubre 2022</p>
           <div className="skills">

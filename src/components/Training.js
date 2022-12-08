@@ -1,5 +1,5 @@
 import React from "react";
-import '../styles/Training.css'
+import "../styles/Training.css";
 
 export default function Training() {
   return (

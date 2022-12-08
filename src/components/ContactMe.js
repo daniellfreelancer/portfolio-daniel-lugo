@@ -1,22 +1,27 @@
 import React from "react";
-import '../styles/Contactme.css'
-import Swal from 'sweetalert2'
-import emailjs from 'emailjs-com'
+import "../styles/Contactme.css";
+import Swal from "sweetalert2";
+import emailjs from "emailjs-com";
 export default function ContactMe() {
-
-  const sentEmailTo =(e)=>{
+  const sentEmailTo = (e) => {
     e.preventDefault();
-    emailjs.sendForm("service_kx6adsn","template_vzrkx84",e.target,'ng_Wj0ukxU_sDzcdd').then((res)=>{
-      Swal.fire({
-        text: 'Su mensaje ha sido enviado con exito!',
-        icon: 'success',
-        confirmButtonText: 'Nice'
+    emailjs
+      .sendForm(
+        "service_kx6adsn",
+        "template_vzrkx84",
+        e.target,
+        "ng_Wj0ukxU_sDzcdd"
+      )
+      .then((res) => {
+        Swal.fire({
+          text: "Su mensaje ha sido enviado con exito!",
+          icon: "success",
+          confirmButtonText: "Nice",
+        });
+        e.target.reset();
       })
-      e.target.reset()
-    } ).catch((error)=>console.log(error))
-  
-
-  }
+      .catch((error) => console.log(error));
+  };
 
   return (
     <>
@@ -30,14 +35,17 @@ export default function ContactMe() {
       <div className="d-flex justify-content-evenly p-5 gap-5 flex-wrap-reverse align-items-center container ">
         <div className="card-form">
           <form onSubmit={sentEmailTo} className="">
-
             <div className="md-3 div-field">
               <label forHtml="to_name" class="form-label">
-                
                 Nombre
               </label>
 
-              <input type="text" name="to_name" id="to_name" className="form-control"/>
+              <input
+                type="text"
+                name="to_name"
+                id="to_name"
+                className="form-control"
+              />
             </div>
             <div className="mb-3 div-field">
               <label forHtml="reply_to" className="form-label">
@@ -46,7 +54,7 @@ export default function ContactMe() {
               <input
                 type="email"
                 className="form-control"
-                name="reply_to" 
+                name="reply_to"
                 id="reply_to"
               />
             </div>
@@ -56,8 +64,8 @@ export default function ContactMe() {
               </label>
               <textarea
                 className="form-control"
-                type="text" 
-                name="message" 
+                type="text"
+                name="message"
                 id="message"
                 rows="2"
               ></textarea>

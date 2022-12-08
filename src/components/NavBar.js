@@ -1,10 +1,8 @@
 import React from "react";
-import "../styles/NavBar.css"
+import "../styles/NavBar.css";
 
 export default function NavBar() {
-    
   return (
-
     //   <nav className="navbar navbar-expand-lg div-nav">
     //     <div className="navbar-portfolio">
     //       <button
@@ -60,23 +58,43 @@ export default function NavBar() {
     //     </div>
     //   </nav> */}
     //   </nav>
-      <nav className="navbar navbar-expand-lg ">
+    <nav className="navbar navbar-expand-lg ">
       <div className="container-fluid ">
-        <button className="navbar-toggler btn-out-burger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <button
+          className="navbar-toggler btn-out-burger"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span className="navbar-toggler-icon btn-burger "></span>
         </button>
-        <div className="collapse navbar-collapse div-nav"  id="navbarNavAltMarkup">
+        <div
+          className="collapse navbar-collapse div-nav"
+          id="navbarNavAltMarkup"
+        >
           <div className="navbar-nav">
-            <a className="nav-link navbar-brand" aria-current="page" href="#about">About me</a>
-            <a className="nav-link navbar-brand" href="#training">Capacitación</a>
-            <a className="nav-link navbar-brand" href="#projects">Proyectos</a>
-            <a className="nav-link navbar-brand" href="#contactMe" >Contacto</a>
+            <a
+              className="nav-link navbar-brand"
+              aria-current="page"
+              href="#about"
+            >
+              About me
+            </a>
+            <a className="nav-link navbar-brand" href="#training">
+              Capacitación
+            </a>
+            <a className="nav-link navbar-brand" href="#projects">
+              Proyectos
+            </a>
+            <a className="nav-link navbar-brand" href="#contactMe">
+              Contacto
+            </a>
           </div>
         </div>
       </div>
     </nav>
-
-
-
   );
 }

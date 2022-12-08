@@ -1,5 +1,5 @@
 import React from "react";
-import '../styles/Certi.css'
+import "../styles/Certi.css";
 export default function Certifieds() {
   return (
     <>

@@ -49,7 +49,7 @@ function App() {
     setIsReadyForInstall(false);
   }
 
-  if(setIsReadyForInstall) {
+  if(isReadyForInstall) {
     downloadApp();
   }
   

@@ -1,25 +1,38 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Mi Portafolio",
+  "background_color": "#111927",
+  "categories": ["Profesional", "Portfolio"],
+  "description":"App de mi Portfolio Profesional - Daniel Lugo",
+  "dir": "ltr",
+  "display_override":["standalone", "fullscreen"],
+  "display": "standalone",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "favicon.png",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "type": "image/png"
     },
     {
-      "src": "logo192.png",
+      "src": "favicon.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "favicon.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "id": "/v1",
+  "lang": "es-AR",
+  "name":"Portafolio DL",
+  "orientation": "portrait",
+  "prefer_related_application":false,
+  "scope": "/",
+  "start_url": "/",
+  "theme_color": "#eff612"
+
+
+
+
 }
